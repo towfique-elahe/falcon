@@ -1,0 +1,153 @@
+/* master layout stats here */
+@media only screen and (max-width: 800px) {
+    html {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    #sidebar {
+        width: 200px;
+    }
+    #sidebar nav a,
+    #sidebar .sidebar_bottom a {
+        gap: 0.5rem;
+    }
+    #sidebar nav a:hover,
+    #sidebar .sidebar_bottom a:hover,
+    #sidebar .active {
+        gap: 0.5rem;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .container {
+        padding: 0.5rem;
+        gap: 0.5rem;
+    }
+    #sidebar {
+        width: fit-content;
+        padding: 0.5rem;
+    }
+    #sidebar a span,
+    #sidebar .logo {
+        display: none;
+    }
+    #topbar {
+        padding: 0.5rem;
+        align-items: center;
+    }
+    #topbar .user {
+        gap: 0.5rem;
+    }
+    #topbar .user img {
+        width: 30px;
+        height: 30px;
+    }
+    #topbar .page_title {
+        font-size: 1.5rem;
+    }
+    #topbar .msg {
+        display: none;
+    }
+}
+/* master layout ends here */
+
+/* profile starts here */
+@media only screen and (max-width: 930px) {
+    #profile {
+        flex-direction: column;
+    }
+}
+/* profile ends here */
+
+/* users starts here */
+@media only screen and (max-width: 850px) {
+    #users td:nth-child(3),
+    #users th:nth-child(3),
+    #users td:nth-child(4),
+    #users th:nth-child(4) {
+        display: none;
+    }
+}
+@media only screen and (max-width: 850px) {
+    #viewModal .view img {
+        display: none;
+    }
+}
+/* users ends here */
+
+/* connections starts here */
+@media only screen and (max-width: 1020px) {
+    #connections td:nth-child(2),
+    #connections th:nth-child(2),
+    #connections td:nth-child(3),
+    #connections th:nth-child(3),
+    #connections td:nth-child(4),
+    #connections th:nth-child(4) {
+        display: none;
+    }
+    #connections td:last-child a:nth-child(2) {
+        display: none;
+    }
+}
+/* connections ends here */
+
+/* subscriptions starts here */
+@media only screen and (max-width: 960px) {
+    #subscriptions td:nth-child(3),
+    #subscriptions th:nth-child(3),
+    #subscriptions td:nth-child(4),
+    #subscriptions th:nth-child(4),
+    #subscriptions td:nth-child(5),
+    #subscriptions th:nth-child(5) {
+        display: none;
+    }
+}
+@media only screen and (max-width: 420px) {
+    #subscriptions td:nth-child(2),
+    #subscriptions th:nth-child(2) {
+        display: none;
+    }
+}
+/* subscriptions ends here */
+
+/* payments starts here */
+@media only screen and (max-width: 1025px) {
+    #payments td:nth-child(2),
+    #payments th:nth-child(2),
+    #payments td:nth-child(4),
+    #payments th:nth-child(4),
+    #payments td:nth-child(5),
+    #payments th:nth-child(5) {
+        display: none;
+    }
+}
+@media only screen and (max-width: 450px) {
+    #payments td:last-child a:nth-child(2) {
+        display: none;
+    }
+}
+/* payments ends here */
+
+/* dues starts here */
+@media only screen and (max-width: 720px) {
+    #dues td:nth-child(2),
+    #dues th:nth-child(2),
+    #dues td:nth-child(4),
+    #dues th:nth-child(4) {
+        display: none;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #dues td:last-child a:nth-child(2) {
+        display: none;
+    }
+}
+/* dues ends here */
+
+/* settings starts here */
+@media only screen and (max-width: 950px) {
+    #settings {
+        flex-direction: column;
+    }
+}
+/* settings ends here */

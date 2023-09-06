@@ -1,0 +1,158 @@
+/* master layout stats here */
+@media only screen and (max-width: 800px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #sidebar {
+    width: 200px;
+  }
+  #sidebar nav a,
+  #sidebar .sidebar_bottom a {
+    gap: 0.5rem;
+  }
+  #sidebar nav a:hover,
+  #sidebar .sidebar_bottom a:hover,
+  #sidebar .active {
+    gap: 0.5rem;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .container {
+    padding: 0.5rem;
+    gap: 0.5rem;
+  }
+  #sidebar {
+    width: fit-content;
+    padding: 0.5rem;
+  }
+  #sidebar a span,
+  #sidebar .logo {
+    display: none;
+  }
+  #topbar {
+    padding: 0.5rem;
+    align-items: center;
+  }
+  #topbar .user {
+    gap: 0.5rem;
+  }
+  #topbar .user img {
+    width: 30px;
+    height: 30px;
+  }
+  #topbar .page_title {
+    font-size: 1.5rem;
+  }
+  #topbar .msg {
+    display: none;
+  }
+}
+/* master layout ends here */
+
+/* dashboard starts here */
+@media only screen and (max-width: 950px) {
+  #dashboard .status_container {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 740px) {
+  #dashboard table th:nth-child(3),
+  #dashboard table td:nth-child(3) {
+    display: none;
+  }
+}
+@media only screen and (max-width: 512px) {
+  #dashboard table th:nth-child(5),
+  #dashboard table td:nth-child(5) {
+    display: none;
+  }
+}
+/* dashboard ends here */
+
+/* profile starts here */
+@media only screen and (max-width: 930px) {
+  #profile {
+    flex-direction: column;
+  }
+}
+/* profile ends here */
+
+/* connection starts here */
+@media only screen and (max-width: 810px) {
+  #connection {
+    flex-direction: column;
+  }
+  #connection .status_card {
+    max-width: none;
+  }
+  #connection .details {
+    max-width: none;
+  }
+}
+/* connection ends here */
+
+/* subscription starts here */
+@media only screen and (max-width: 750px) {
+  #subscription {
+    flex-direction: column;
+  }
+}
+/* subscription ends here */
+
+/* dues starts here */
+@media only screen and (max-width: 750px) {
+  #dues {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+/* dues ends here */
+
+/* transaction starts here */
+@media only screen and (max-width: 740px) {
+  #transactions table th:nth-child(3),
+  #transactions table td:nth-child(3) {
+    display: none;
+  }
+}
+@media only screen and (max-width: 512px) {
+  #transactions table th:nth-child(2),
+  #transactions table td:nth-child(2) {
+    display: none;
+  }
+}
+/* transaction ends here */
+
+/* complain starts here */
+@media only screen and (max-width: 930px) {
+  #complain {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+/* complain ends here */
+
+/* checkout starts here */
+@media only screen and (max-width: 1000px) {
+  #checkout {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #checkout .illustration {
+    max-width: 20rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  #checkout .mastercard {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  #checkout .mastercard input {
+    width: 100% !important;
+  }
+}
+/* checkout ends here */

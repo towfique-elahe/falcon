@@ -1,0 +1,84 @@
+/* login and register page starts here */
+#hero .log {
+    justify-content: center;
+    gap: 5rem;
+}
+#hero .log .sec_heading {
+    font-size: 2rem;
+}
+#hero .form {
+    width: 100%;
+    max-width: 30rem;
+    background-color: var(--light_green);
+    border: var(--border);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 1rem;
+    padding: 2rem 3rem;
+}
+#hero .form .button {
+    width: 10rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.7rem 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+#hero .form .button:hover {
+    width: 100%;
+}
+#hero .button img {
+    width: 1.5rem;
+}
+#hero .form_inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+#hero .input {
+    display: flex;
+    flex-direction: column;
+}
+#hero .input input {
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border-radius: 0.5rem;
+    background-color: var(--light_gold);
+    border: var(--border);
+    border-width: 2px;
+}
+#hero .input input:focus {
+    background-color: var(--light);
+    box-shadow: var(--shadow-light);
+}
+#hero .input input:invalid {
+    border-color: rgb(215, 18, 57, 0.6);
+}
+#hero p a {
+    background-color: var(--primary);
+    color: var(--light);
+    padding: 0.1rem 0.5rem;
+    border-radius: 5rem;
+}
+#hero .error {
+    color: crimson !important;
+}
+@media only screen and (max-width: 625px) {
+    #hero .log .sec_image {
+        display: none;
+    }
+    #hero .log label {
+        text-align: left;
+    }
+    #hero .log .button {
+        margin: 0 auto;
+    }
+}
+/* login and register page ends here */

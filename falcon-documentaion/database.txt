@@ -1,0 +1,78 @@
+users table
+            $table->id();
+            $table->string('name');
+            $table->string('email')->unique();
+            $table->string('phone')->nullable();
+            $table->string('password');
+            $table->tinyInteger('role')->default('0');
+            $table->text('image')->nullable();
+            $table->rememberToken();
+            $table->timestamps();
+
+queries table
+            $table->id();
+            $table->string('fname');
+            $table->string('lname');
+            $table->string('email');
+            $table->string('phone')->nullable();
+            $table->text('description');
+            $table->timestamps();
+
+settings table
+            $table->id();
+            $table->string('title')->nullable();
+            $table->text('logo')->nullable();
+            $table->timestamps();
+
+connections table
+            $table->id();
+            $table->tinyInteger('status')->default('0');
+            $table->string('plan')->nullable();
+            $table->string('price')->nullable();
+            $table->string('sub_id')->nullable();
+            $table->string('sub_start')->nullable();
+            $table->string('sub_end')->nullable();
+            $table->timestamps();
+
+subscriptions table
+            $table->id();
+            $table->tinyInteger('status')->default('0');
+            $table->string('plan')->nullable();
+            $table->string('price')->nullable();
+            $table->string('sub_end')->nullable();
+            $table->timestamps();
+
+dues table
+            $table->id();
+            $table->string('plan')->nullable();
+            $table->string('price')->nullable();
+            $table->string('name')->nullable();
+            $table->string('sub_id')->nullable();
+            $table->string('sub_start')->nullable();
+            $table->string('sub_end')->nullable();
+            $table->string('amount')->nullable();
+            $table->tinyInteger('status')->default('0');
+            $table->timestamps();
+
+payments table
+            $table->id();
+            $table->tinyInteger('status')->default('0');
+            $table->string('method');
+            $table->string('plan');
+            $table->string('price');
+            $table->string('tprice');
+            $table->string('name');
+            $table->string('email');
+            $table->string('billing_add');
+            $table->string('b_number');
+            $table->string('b_trans');
+            $table->string('billing_phone');
+            $table->timestamps();
+
+complains table
+            $table->id();
+            $table->string('user_id');
+            $table->string('name');
+            $table->string('email');
+            $table->string('description');
+            $table->timestamps();

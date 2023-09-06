@@ -1,0 +1,37 @@
+Id,Name,Shape Library,Page ID,Contained By,Group,Line Source,Line Destination,Source Arrow,Destination Arrow,Status,Text Area 1,Comments
+1,Document,,,,,,,,,Approved,Falcon - UML Sequence Diagram,
+2,Page,,,,,,,,,,UML Sequence Diagram,
+3,Area,UI Mockups,2,,,,,,,,,
+4,Actor,UML,2,3,,,,,,,User,
+5,Actor,UML,2,3,,,,,,,Admin,
+6,Actor,UML,2,3,,,,,,,User,
+7,Object,UML,2,3,,,,,,,ISP Management System,
+8,Object,UML,2,3,,,,,,,Online Banking,
+9,Activation,UML,2,,,,,,,,,
+10,Activation,UML,2,,,,,,,,,
+11,Activation,UML,2,,,,,,,,,
+12,Activation,UML,2,,,,,,,,,
+13,Activation,UML,2,,,,,,,,,
+14,Activation,UML,2,,,,,,,,,
+15,Activation,UML,2,,,,,,,,,
+16,Activation,UML,2,,,,,,,,,
+17,Activation,UML,2,,,,,,,,,
+18,Activation,UML,2,,,,,,,,,
+19,Activation,UML,2,,,,,,,,,
+20,Line,,2,,,4,,None,None,,,
+21,Line,,2,,,6,,None,None,,,
+22,Line,,2,,,5,,None,None,,,
+23,Line,,2,,,7,,None,None,,,
+24,Line,,2,,,8,,None,None,,,
+25,Line,,2,,,9,10,None,Arrow,,Add Subscription to Cart,
+26,Line,,2,,,9,11,None,Arrow,,Remove Subscription from Cart,
+27,Line,,2,,,9,12,None,Arrow,,View Cart,
+28,Line,,2,,,9,13,None,Arrow,,Purchase Subscription,
+29,Line,,2,,,13,18,None,Arrow,,Receive Subscription Request,
+30,Line,,2,,,14,15,None,Arrow,,Check payment order,
+31,Line,,2,,,15,14,None,Arrow,,Payment method,
+32,Line,,2,,,17,18,Arrow,None,,Update Subscription Status,
+33,Line,,2,,,18,14,None,Arrow,,Notify Subscription,
+34,Line,,2,,,9,16,None,Arrow,,Get Subscription Status,
+35,Line,,2,,,19,14,None,Arrow,,Payment verified,
+36,Line,,2,,,19,14,None,Arrow,,Verify payment,
